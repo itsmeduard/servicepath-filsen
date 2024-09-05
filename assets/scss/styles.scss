@@ -99,3 +99,22 @@ body {
     font-weight: bolder;
   }
 }
+
+.navbar-scrolled {
+    background-color: white;  /* Add white background on scroll */
+}
+
+@media (max-width: 768px) {  /* Target mobile devices */
+    .navbar-collapse.show {  /* Apply styles when navbar is collapsed */
+        background-color: white;  /* Add white background when collapsed */
+    }
+    
+    .navbar-collapse .btn-demo {
+        background-color: #6ab245;
+        color: white;
+    } 
+    
+    .navbar-collapse .login-button{
+        background-color: #6ab245; 
+    } 
+}
