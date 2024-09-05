@@ -1,0 +1,101 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  color: #444444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.text-7 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.c-primary-color {
+  color: #6ab245;
+}
+
+.bg-color {
+  background: #6ab245;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  -webkit-box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.35);
+}
+
+.text-style {
+  font-size: 3.75rem;
+}
+
+.main-div {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0 60px 0;
+  display: flex;
+  align-items: center;
+  background: url(background.webp) top center no-repeat;
+  background-size: cover;
+}
+
+#contact {
+  background-image: url("bg-servicepath.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar.scrolled {
+    background-color: white;
+}
+
+.navbar.scrolled .login-scrolled,
+.navbar.scrolled .btn-light {
+    color: black;
+    background-color: white; /* Set background color to white for both buttons */
+}
+
+.navbar.scrolled .btn-demo {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.heading-servicepath {
+  font-size: 3.75rem;
+  font-weight: bolder;
+}
+
+@media (max-width: 575px) {
+  .heading-servicepath {
+    font-size: 2.75rem;
+    font-weight: bolder;
+  }
+}
